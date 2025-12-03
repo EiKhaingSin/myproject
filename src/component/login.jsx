@@ -9,7 +9,7 @@ function App() {
       className="min-h-screen flex items-center justify-center p-4"
       style={{ 
         
-        background: 'linear-gradient(135deg, #1f005c 0%, #5b0060 25%, #870160 50%, #ac255e 75%, #ca485c 100%)',
+        background: 'linear-gradient(135deg, #917cbfff 0%, #a76babff 25%, #c55ba7ff 50%, #ac255e 75%, #ca485c 100%)',
         fontFamily: 'Inter, sans-serif'
       }}
     >
