@@ -1,11 +1,8 @@
-import Login from "./component/login"; 
+import Login from './component/login.jsx';
+
 
 function App() {
-  return (
-    <div >
-      <Login />
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
