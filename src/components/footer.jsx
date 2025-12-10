@@ -21,7 +21,6 @@ export default function Footer() {
             <li className="hover:text-green-400 cursor-pointer">Contact</li>
           </ul>
         </div>
-
    
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Contact</h3>
@@ -36,8 +35,7 @@ export default function Footer() {
         </div>
 
       </div>
-
-   
+ 
       <div className="text-center mt-6 border-t border-gray-700 pt-4 text-sm">
         © {new Date().getFullYear()} MyBrand. All rights reserved.
       </div>
