@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 //import UserLogin from "../component/newlog.jsx";
-import Login from "../component/login.jsx";
-import Card from "../component/card.jsx"
-import Smallweb from "../component/smallweb.jsx";
+import Login from "../components/login.jsx";
+import Card from "../components/card.jsx"
+import  AuthForm from "../components/Login/switchlog.jsx"
 
 const router = createBrowserRouter([
  
@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path:"/card",
     element: < Card />
   },
- {
-    path: "/",          
-    element: <Smallweb />
-  },
+  {
+    path: "/auth",
+    element: <AuthForm />,
+  }
 ]);
 
 export default router;
