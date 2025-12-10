@@ -46,7 +46,7 @@ function Login() {
                     </p>
                 )}
 
-                {/* ❌ FORM Removed  →  ✔ Manual POST Only */}
+           
                 <div className="space-y-8">
 
                     <div className="relative border-b border-white/50 focus-within:border-purple-400 pb-2">
